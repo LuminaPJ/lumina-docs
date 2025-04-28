@@ -32,7 +32,7 @@ export default defineConfig({
         editLink: {
             pattern: 'https://github.com/LuminaPJ/lumina-docs/edit/main/docs/:path', text: '为此文档提交贡献'
         },
-        lastUpdated: {text: '上次更新：', formatOptions: {dateStyle: 'full', timeStyle: 'medium'}},
+        lastUpdated: {text: '上次更新', formatOptions: {dateStyle: 'full', timeStyle: 'medium'}},
         search: {
             provider: 'local', options: {
                 translations: {
