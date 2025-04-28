@@ -11,3 +11,4 @@ TODOs.md
 docs/.vitepress/dist/
 .idea/
 .vitepress/cache/
+yarn.lock
