@@ -25,7 +25,9 @@ export default defineConfig({
             }, {
                 text: 'Ktor 后端开发', items: [{text: '快速开始', link: '/develop/ktor-quick-start'}],
             }, {
-                text: '微信小程序用户端开发', items: [{text: '快速开始', link: '/develop/weixin-mp-quick-start'},]
+                text: '微信小程序用户端开发', items: [{text: '快速开始', link: '/develop/weixin-mp-quick-start'}, {
+                    text: '服务端 API 参考', link: '/develop/api-reference'
+                }]
             }, {text: 'Next.js 管理端开发', items: [{text: '快速开始', link: '/develop/nextjs-quick-start'},]}]
         },
         socialLinks: [{icon: 'github', link: 'https://github.com/LuminaPJ'}],
@@ -56,7 +58,7 @@ export default defineConfig({
         returnToTopLabel: '返回顶部',
         sidebarMenuLabel: '导航',
         externalLinkIcon: true,
-        outline: {label: '文章目录'}
+        outline: {label: '文章目录', level: [2, 3]}
     },
     markdown: {
         container: {
