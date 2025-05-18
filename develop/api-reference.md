@@ -59,7 +59,7 @@ GET `/group/{groupId}`
   "groupId": "123456789",
   "groupName": "咳特灵药业",
   "createAt": "2021-03-28T02:16:20", 
-  "isPasswordEnable": "true",
+  "isPasswordEnable": true,
   "memberList": [{
     "userId": "123456789", 
     "userName": "咳特灵", 
@@ -131,10 +131,10 @@ POST `/groupManager/{groupId}/remove`
 
 ```JSON
 {
-  "groupManageUserList": {
-    "userId": "123456789", 
-    "userName": "咳特灵"
-  }, 
+  "groupManageUserList": [{
+      "userId": "123456789",
+      "userName": "咳特灵"
+  }], 
   "soterInfo": {
     "json_string": "微信小程序调用 wx.startSoterAuthentication 获取",
     "json_signature": "微信小程序调用 wx.startSoterAuthentication 获取"

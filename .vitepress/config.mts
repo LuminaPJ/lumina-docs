@@ -20,7 +20,7 @@ export default defineConfig({
             }, {
                 text: '微信小程序部署', items: [{text: '部署', link: '/deploy/weixin-mp-deploy'},]
             }, {text: '管理端部署', items: [{text: '部署', link: '/deploy/admin-deploy'},]},],
-            '/develop': [{
+            '/develop/': [{
                 text: '开发指导', items: [{text: '快速开始', link: '/develop/quick-start'},]
             }, {
                 text: 'Ktor 后端开发', items: [{text: '快速开始', link: '/develop/ktor-quick-start'}],
