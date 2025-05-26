@@ -68,7 +68,7 @@ fun main() {
 这是 Java 防御空指针：
 
 ```Java
-if (person != null || person.getName() != null) {
+if (person != null && person.getName() != null) {
     System.out.println(person.getName());
 }
 ```
