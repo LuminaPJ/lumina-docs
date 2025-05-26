@@ -306,7 +306,7 @@ class Person(val name: String, val age: Int) {
 } // 有参构造
 ```
 
-有参构造的类传递的参数默认可访问，如需定义私有成员，请在类体中使用 `private` 修饰符声明成员：
+在主构造函数中，只有用 `val` 或 `var` 声明的参数才会自动成为类的属性并可被访问。未加 `val` 或 `var` 的参数仅作为构造函数的参数，不能作为属性访问。如需定义私有成员，请在类体中使用 `private` 修饰符声明成员：
 
 ```Kotlin
 class Person(val name: String, val age: Int) {
