@@ -143,11 +143,24 @@ println("Hello ${name.toUpperCase()}") // "Hello KOTLIN"
 
 ### Null 安全
 
-在声明可 null 变量时，需要在变量名后加上 `?`，表示该变量可为 null：
+在声明可 Null 变量时，需要在变量名后加上 `?`，表示该变量可为 `null`：
 
 ```Kotlin
 var name: String? = "Kotlin"
 name = null // 可赋值 null 而不报错
+```
+
+Kotlin 提供了 `?.`、`?:`、`!!` 等 Null 安全操作符，用于处理 `null` 值：
+
+- `?.`：安全调用操作符，用于在对象不为 `null` 时调用其方法或访问其属性。如果变量为 `null`，则返回 `null`，否则返回变量的值
+- `?:`：Elvis 操作符，用于在表达式为 `null` 时提供一个默认值。如果变量为 `null`，则返回右侧表达式的值，否则返回变量的值
+- `!!`：非空断言，强制将可空类型转换为非空类型。如果变量为 `null`，则抛出异常
+
+```Kotlin
+val name: String? = null
+val nameUpper = name?.toUpperCase() // null
+val nameUpperOrDefault = name?.toUpperCase() ?: "Default" // "Default"
+val nameUpper2 = name!!.toUpperCase() // 抛出异常
 ```
 
 ### 集合类型
