@@ -211,7 +211,7 @@ while (true) {
 }
 ```
 
-除了上述控制语句，Kotlin 还有 `forEach` 等循环语句，使用 `forEach` 等循环语句可以更简洁地遍历集合：
+除了上述控制语句，Kotlin 还提供了如 `forEach` 这样的集合扩展函数。`forEach` 是定义在可迭代对象上的扩展函数，可以更简洁地遍历集合：
 
 ```Kotlin
 val list = listOf(5, 4, 3, 2, 1)
