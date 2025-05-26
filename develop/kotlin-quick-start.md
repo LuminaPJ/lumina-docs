@@ -288,7 +288,7 @@ val complexCalc = list.map {
 } // [3, 5, 7, 9, 11]
 ```
 
-Lambda 的最后一行表达式自动作为返回值，无需 `return`。
+Lambda 的最后一个表达式自动作为返回值，无需 `return`。
 
 ### 类
 
