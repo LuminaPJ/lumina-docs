@@ -122,7 +122,7 @@ val name: String // 未初始化，此时读取值会报错
 name = "Kotlin" // 初始化
 ```
 
-如果要转换类型，基本类型间转换使用 `to基本类型()` 点调用函数：
+如果要转换类型，基本类型间转换需使用形如 `toXxx()` 的转换函数（例如 `toInt()`, `toLong()`）：
 
 ```Kotlin
 val age = 18
@@ -211,7 +211,7 @@ while (true) {
 }
 ```
 
-除了上述控制语句，Kotlin 还有独有的 `forEach` 等循环语句，使用 `forEach` 等循环语句可以更简洁地遍历集合：
+除了上述控制语句，Kotlin 还有 `forEach` 等循环语句，使用 `forEach` 等循环语句可以更简洁地遍历集合：
 
 ```Kotlin
 val list = listOf(5, 4, 3, 2, 1)
@@ -246,14 +246,14 @@ fun functionName(param1: Type1, param2: Type2): ReturnType { return value }
 fun functionName(param1: Type1, param2: Type2) { actions() }
 ```
 
-赋值函数格式：
+表达式函数体格式：
 
 ```Kotlin
 fun sum(x: Int, y: Int): Int = x + y
 ```
 
 ```Kotlin
-// 因为类型推断，所以也可以省略赋值函数的返回类型
+// 因为类型推断，所以也可以省略表达式函数体的返回类型
 fun sum(x: Int, y: Int) = x + y
 ```
 
