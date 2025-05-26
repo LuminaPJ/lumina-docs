@@ -265,7 +265,12 @@ val sum: (Int, Int) -> Int = { a: Int, b: Int -> a + b }
 ```
 
 ```Kotlin
-// 类型推断后简化语法：参数类型可省略
+// 省略参数类型，根据函数类型自动推断
+val sum: (Int, Int) -> Int = { a, b -> a + b }
+```
+
+```Kotlin
+// 未显式声明变量类型，从 Lambda 体推导类型
 val multiply = { x: Int, y: Int -> x * y } // 类型自动推导为 (Int, Int) -> Int
 ```
 
