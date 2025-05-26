@@ -143,7 +143,7 @@ println("Hello ${name.toUpperCase()}") // "Hello KOTLIN"
 
 ### Null 安全
 
-在声明可 Null 变量时，需要在变量名后加上 `?`，表示该变量可为 `null`：
+在声明可空变量时，需要在变量名后加上 `?`，表示该变量可为 `null`：
 
 ```Kotlin
 var name: String? = "Kotlin"
