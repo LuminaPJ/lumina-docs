@@ -237,7 +237,7 @@ map.forEach { (key, value) ->
 函数可以在 `.kt` 文件顶层声明。传统的函数声明格式如下：
 
 ```Kotlin
-// 有返回函数
+// 有返回值的函数
 fun functionName(param1: Type1, param2: Type2): ReturnType { return value }
 ```
 
