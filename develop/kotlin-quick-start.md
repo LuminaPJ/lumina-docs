@@ -103,7 +103,7 @@ Kotlin 是静态强类型语言，在 JVM 平台的类型系统和 Java 一致�
 
 Kotlin 在 JVM 平台的 8 种基本数据类型如下：
 
-- 整数类型：`Byte`、`Short`、`Int`、`Long`，默认 `Int` 
+- 整数类型：`Byte`、`Short`、`Int`、`Long`，默认 `Int`
 - 浮点类型：`Float`、`Double`，默认 `Double`
 - 字符类型：`Char`
 - 布尔类型：`Boolean`
