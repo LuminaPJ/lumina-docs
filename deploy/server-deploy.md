@@ -7,7 +7,7 @@
 下载完毕后，解压源码，进入目录 `\lumina-server\src\main\resources`，创建一个名为 `application.yaml` 的文件，并写入以下内容：
 
 ::: tip
-SM2 密钥对可从由琳琅问维护的[中国商密 SM2 密钥对随机生成器](https://github.com/LuminaPJ/sm2-key-generator)程序中随机生成。默认情况下由此程序生成的 SM2 密钥对中，公钥为 65 字节，私钥为 32 字节，RAW 未压缩格式，经过 Base64 编码为字符串。
+SM2 密钥对可从由琳琅问维护的[中国商密 SM2 密钥对随机生成器](https://github.com/LuminaPJ/sm2-key-generator)（[使用文档](/deploy/sm2-key-gen-guide.md)）程序中随机生成。默认情况下由此程序生成的 SM2 密钥对中，公钥为 65 字节，私钥为 32 字节，RAW 未压缩格式，经过 Base64 编码为字符串。
 :::
 
 ```Yaml
