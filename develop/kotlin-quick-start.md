@@ -12,7 +12,7 @@ Kotlin 是一种开源静态类型编程语言，面向 JVM、Android、JavaScri
 - **Kotlin 协程让异步代码像阻塞代码一样易于使用**：协程可大幅简化后台任务管理，例如网络调用、本地数据访问等任务的管理。
 
 来几个简单代码例，这是实现打印 `Hello World`：
-、
+
 ::: code-group
 ```Kotlin
 fun main() {
