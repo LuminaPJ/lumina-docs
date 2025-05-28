@@ -30,34 +30,20 @@ pkg-config --modversion glib-2.0
 
 #### 生成 SM2 密钥对
 
-打开后会出现以下窗口：
-
-![](/assets/Images/sm2-1.png)
-
-点击生成按钮，等待生成完成。生成完毕后会显示 SM2 密钥对信息，如下图所示：
-
-![](/assets/Images/sm2-2.png)
+打开后，点击生成按钮，等待生成完成。生成完毕后会显示 SM2 密钥对信息。
 
 点击复制后可复制密钥对信息，如：
 
 ```Yaml
-publicKey: "BEg8XHaZbguikZPH6WwH7I18oO/Pe2lAz42tqBy3xwqQ8xxrJPFa35mxrtHhiQ7mLnivDvm0KFLps7cdGOjUHx4="
-privateKey: "8NWQmiixU6u8790xVpvJphAlhMYRtFR4jnBh5LFiTK0="
+publicKey: "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX="
+privateKey: "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX="
 ```
 
 #### 私钥推导公钥
 
-切换到“私钥转公”选项卡，该页可以通过 SM2 私钥推导出公钥。
+切换到“私钥转公”选项卡，该页可以通过 SM2 私钥推导出公钥。首先在输入框输入需要推导出公钥的 SM2 私钥。
 
-![](/assets/Images/sm2-3.png)
-
-首先在输入框输入需要推导出公钥的 SM2 私钥：
-
-![](/assets/Images/sm2-4.png)
-
-点击“生成”按钮，等待生成完成。生成完毕后会显示 SM2 公钥信息，如下图所示：
-
-![](/assets/Images/sm2-5.png)
+点击“生成”按钮，等待生成完成。生成完毕后会显示 SM2 公钥信息。
 
 ### 备注
 
