@@ -14,7 +14,7 @@
 
 该项目暂仅支持 Windows 10+ x64 端和 Linux Desktop x64 端运行，其中 Linux 端需要 [GLib](https://docs.gtk.org/glib/) 版本 ≥ 2.80.0。
 
-::: tip
+::: info
 在 Linux 中通过命令行查看当前终端的 GLib 版本：
 
 ```Shell
